@@ -1,2 +1,2 @@
 # promptly
-Prompt generation tool for image and video.
+Prompt generation tool for AI image, text, and video.
