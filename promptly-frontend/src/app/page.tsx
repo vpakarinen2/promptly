@@ -104,6 +104,9 @@ export default function HomePage() {
           <div className="space-y-10">
             <section>
               <h2 className="text-xl font-semibold mb-4 text-gray-700">
+                <span className="bg-gray-200 text-gray-700 rounded-full w-8 h-8 inline-flex items-center justify-center mr-3">1</span>
+                Select Category
+              </h2>
                 <div className="grid grid-cols-3 gap-4">
                   {Object.keys(options).map((category) => (
                     <button
@@ -123,13 +126,12 @@ export default function HomePage() {
                     </button>
                   ))}
                 </div>
-              </h2>
             </section>
             {selectedCategory && (
               <section>
                 <h2 className="text-xl font-semibold mb-6 text-gray-700">
                   <span className="bg-gray-200 text-gray-700 rounded-full w-8 h-8 inline-flex items-center justify-center mr-3">2</span>
-                  Choose a Style
+                  Choose Style
                 </h2>
 
                 <div className="flex flex-wrap gap-3">
