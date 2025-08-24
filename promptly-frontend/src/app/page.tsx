@@ -50,7 +50,7 @@ export default function HomePage() {
   const [error, setError] = useState<string | null>(null);
 
   const options = {
-    Image: ["Photorealistic", "Anime", "Fantasy Art"],
+    Image: ["Photorealistic"],
     Video: ["Cinematic Shot"],
     Text: ["Blog Post"], 
   };
