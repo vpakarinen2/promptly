@@ -1,6 +1,6 @@
 # Promptly
 
-Prompt generation tool for AI image, text, and video.
+Prompt generation tool for AI.
 
 ![Promptly Application Screenshot](./promptly-screenshot-3.png)
 
