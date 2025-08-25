@@ -2,7 +2,7 @@
 
 Prompt generation tool for AI image, text, and video.
 
-![Promptly Application Screenshot](./promptly-screenshot-2.png)
+![Promptly Application Screenshot](./promptly-screenshot-3.png)
 
 ## Tech Stack
 * **Backend:** FastAPI (Python)
