@@ -5,7 +5,7 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from typing import Optional
 
-from prompt_data import PROMPT_TEMPLATES, TEMPLATE_FILLERS
+from prompt_data import PROMPT_TEMPLATES
 
 app = FastAPI(
     title="Promptly API",
@@ -14,7 +14,6 @@ app = FastAPI(
 )
 
 origins = [
-    "http://localhost",
     "http://localhost:3000"
 ]
 
@@ -49,17 +48,12 @@ async def generate_prompt(request: PromptRequest):
     
     recommended_model = None
     if category == "image":
-        Model = "FLUX"
+        Model = "Flux"
     elif category == "video":
-        Model = "WAN"
+        Model = "Wan"
     elif category == "text":
         Model = "GPT"
 
-    template = random.choice(PROMPT_TEMPLATES[category][style])
-    prompt = template.format(
-        subject=random.choice(TEMPLATE_FILLERS["subject"]),
-        details=random.choice(TEMPLATE_FILLERS["details"]),
-        tone=random.choice(TEMPLATE_FILLERS["tone"])
-    )
+    prompt = random.choice(PROMPT_TEMPLATES[category][style])
 
     return PromptResponse(prompt=prompt, recommended_model=Model)
