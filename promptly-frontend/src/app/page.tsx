@@ -41,7 +41,6 @@ const CopyButton = ({ textToCopy }: { textToCopy: string }) => {
   );
 };
 
-// HomePage function
 export default function HomePage() {
   const [selectedCategory, setSelectedCategory] = useState<string | null>("Image");
   const [selectedStyle, setSelectedStyle] = useState<string | null>(null);
