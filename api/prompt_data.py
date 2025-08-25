@@ -312,33 +312,3 @@ PROMPT_TEMPLATES = {
         ],
     },
 }
-
-TEMPLATE_FILLERS = {
- "subject": [
-        "person", "man", "woman", "teenager", "child", "toddler", "elderly man", "elderly woman",
-        "doctor", "nurse", "software engineer", "data scientist", "teacher", "student", "chef",
-        "barista", "artist", "musician", "photographer", "construction worker", "firefighter",
-        "police officer", "athlete", "runner", "cyclist", "yoga instructor", "gamer", "content creator",
-        "office worker", "remote worker", "mechanic", "farmer", "scientist", "researcher",
-        "golden retriever", "labrador", "tabby cat", "siamese cat", "red fox", "wolf", "owl",
-        "sparrow", "pigeon", "koi fish", "horse", "cow", "sheep", "goat", "chicken",
-        "sedan car", "sports car", "electric car", "motorcycle", "bicycle", "mountain bike",
-        "scooter", "bus", "tram", "train exterior", "train interior", "airplane cabin", "sailboat",
-    ],
-    "details": [
-        "morning light", "golden hour", "overcast light", "soft window light", "harsh midday sun",
-        "blue hour", "night scene", "light rain", "mist", "snowfall", "dry heat haze", "clear sky",
-        "after rain wet surfaces", "neutral color palette", "vibrant colors", "muted tones",
-        "high contrast", "low contrast", "shallow depth of field", "wide angle perspective",
-        "telephoto compression", "centered composition", "rule-of-thirds framing", "negative space",
-        "matte surface", "glossy reflections", "textured fabric", "weathered wood", "polished metal",
-        "natural stone", "in motion", "resting", "working", "reading", "cooking", "talking",
-        "waiting", "walking", "indoor", "outdoor", "natural background", "studio backdrop",
-        "urban setting", "rural setting"
-    ],
-    "tone": [
-        "informative", "inspirational", "casual", "serious", "optimistic",
-        "thought-provoking", "friendly", "dramatic", "reflective", "playful",
-        "mysterious", "technical", "emotional", "engaging", "bold"
-    ]
-}
